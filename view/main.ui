@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="tk.Frame" id="mainwindow">
+    <property name="height">600</property>
+    <property name="width">800</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+      <rows>
+        <row id="0">
+          <property name="minsize">0</property>
+          <property name="pad">0</property>
+        </row>
+      </rows>
+    </layout>
+    <child>
+      <object class="tk.Frame" id="topframe">
+        <property name="background">#184e5c</property>
+        <property name="borderwidth">5</property>
+        <property name="height">100</property>
+        <property name="width">600</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+          <property name="sticky">ew</property>
+        </layout>
+        <child>
+          <object class="tk.Canvas" id="canvas_logo">
+            <property name="background">#184e5c</property>
+            <property name="height">60</property>
+            <property name="highlightbackground">#184e5c</property>
+            <property name="width">400</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="midframe">
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="sticky">ew</property>
+        </layout>
+        <child>
+          <object class="tk.PanedWindow" id="PanedWindow_1">
+            <property name="background">#184e5c</property>
+            <property name="borderwidth">5</property>
+            <property name="orient">horizontal</property>
+            <property name="sashwidth">1</property>
+            <property name="width">590</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+            <child>
+              <object class="tk.PanedWindow.Pane" id="Pane_1">
+                <property name="minsize">120</property>
+                <property name="width">180</property>
+                <child>
+                  <object class="tk.Frame" id="Frame_1">
+                    <layout>
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                    <child>
+                      <object class="tk.Canvas" id="canvas_latch">
+                        <property name="height">400</property>
+                        <property name="width">200</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="tk.PanedWindow.Pane" id="Pane_2">
+                <property name="minsize">200</property>
+                <property name="width">300</property>
+                <child>
+                  <object class="tk.Frame" id="Frame_2">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout>
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                    <child>
+                      <object class="tk.PanedWindow" id="PanedWindow_3">
+                        <property name="background">#184e5c</property>
+                        <property name="borderwidth">5</property>
+                        <property name="height">420</property>
+                        <property name="orient">vertical</property>
+                        <property name="sashwidth">5</property>
+                        <property name="width">400</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                        <child>
+                          <object class="tk.PanedWindow.Pane" id="Pane_3">
+                            <property name="height">200</property>
+                            <property name="minsize">100</property>
+                            <child>
+                              <object class="tk.Frame" id="Frame_3">
+                                <layout>
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                                <child>
+                                  <object class="tk.Text" id="Text_Display">
+                                    <property name="height">13</property>
+                                    <property name="width">55</property>
+                                    <layout>
+                                      <property name="column">0</property>
+                                      <property name="propagate">True</property>
+                                      <property name="row">1</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="tk.PanedWindow.Pane" id="Pane_4">
+                            <property name="height">200</property>
+                            <property name="minsize">100</property>
+                            <child>
+                              <object class="tk.Frame" id="Frame_4">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout>
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                                <child>
+                                  <object class="tk.Listbox" id="Listbox_1">
+                                    <property name="height">12</property>
+                                    <property name="width">50</property>
+                                    <layout>
+                                      <property name="column">0</property>
+                                      <property name="propagate">True</property>
+                                      <property name="row">0</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Frame" id="botframe">
+        <property name="background">#184e5c</property>
+        <property name="borderwidth">5</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">ew</property>
+        </layout>
+        <child>
+          <object class="tk.Checkbutton" id="cypher">
+            <property name="background">#184e5c</property>
+            <property name="text" translatable="yes">Encrypt</property>
+            <property name="variable">string:check_encrypt</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Entry" id="entry_text">
+            <property name="highlightbackground">#184e5c</property>
+            <property name="textvariable">string:text_input</property>
+            <property name="width">30</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="padx">20 0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="btn_send">
+            <property name="command">send</property>
+            <property name="highlightbackground">#184e5c</property>
+            <property name="text" translatable="yes">Send</property>
+            <property name="width">8</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="padx">5</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="btn_file">
+            <property name="command">file</property>
+            <property name="height">0</property>
+            <property name="highlightbackground">#184e5c</property>
+            <property name="text" translatable="yes">File</property>
+            <property name="width">8</property>
+            <layout>
+              <property name="column">3</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
